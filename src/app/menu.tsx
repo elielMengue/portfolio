@@ -4,11 +4,12 @@ import { MdArrowOutward } from "react-icons/md";
 
 export default function Menu() {
     return (
-        <div className="flex justify-between bg-gray-200 p-4">
+        <div className="flex justify-between p-4">
 
             <div className="my-3 px-3 font-medium">
-                <Link href="/" className="mx-2">Home</Link>
-                <Link href="/about" className="mx-2">About Me</Link>
+                <Link href="/" className="mx-2">AboutMe</Link>
+                <Link href="/portfolio" className="mx-2">Portfolio</Link>
+                <Link href="/services" className="mx-2">Services</Link>
                 <Link href="/blog" className="mx-2">Blog</Link>
             </div>
 
