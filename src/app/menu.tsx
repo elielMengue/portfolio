@@ -9,7 +9,6 @@ export default function Menu() {
             <div className="my-3 px-3 font-medium">
                 <Link href="/" className="mx-2">AboutMe</Link>
                 <Link href="/portfolio" className="mx-2">Portfolio</Link>
-                <Link href="/services" className="mx-2">Services</Link>
                 <Link href="/blog" className="mx-2">Blog</Link>
             </div>
 
