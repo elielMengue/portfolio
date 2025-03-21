@@ -1,15 +1,19 @@
+"use client";
 
-interface CardProps{
-    title: string,
-    subtitle: string
+import CountUp from "react-countup";
+
+interface CardProps {
+  title: number;
+  subtitle: string;
 }
-export default function Card( props: CardProps ){
 
-    return(
-
-        <div className="p-4 border-b boder-1 m-5">
-            <h1 className="text-3xl font-bold text-gray-800">{props.title}</h1>
-            <p className="text-lg text-gray-600">{props.subtitle}</p>
-        </div>
-    )
+export default function Card({ title, subtitle }: CardProps) {
+  return (
+    <div className="p-4 border-b border-gray-300 m-5">
+      <h1 className="text-3xl font-bold text-gray-800">
+        +<CountUp start={0} end={title} duration={3} />
+      </h1>
+      <p className="text-lg text-gray-600">{subtitle}</p>
+    </div>
+  );
 }

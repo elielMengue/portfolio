@@ -1,3 +1,5 @@
+"use client";
+
 import {TfiBarChart } from 'react-icons/tfi'
 import { FaArrowTrendUp } from 'react-icons/fa6'
 import { IoArrowRedoOutline } from 'react-icons/io5';
@@ -15,8 +17,8 @@ export default function Home() {
   return (
     <div className="">
        <div className=" flex justify-center">
-            <Card title={'+200'} subtitle={'project completed'} />
-            <Card title={'+50'} subtitle={'startup raised'} />
+            <Card title={200} subtitle={'project completed'} />
+            <Card title={50} subtitle={'startup raised'} />
         </div>
     
         <div className="mx-8">

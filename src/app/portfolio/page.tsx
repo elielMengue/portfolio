@@ -1,7 +1,7 @@
 import image1 from '../../../public/images/image1.webp';
 import image2 from '../../../public/images/image2.webp';
 import Image from 'next/image';
-
+import { GrLinkNext } from 'react-icons/gr';
 
 export default function Page (){
 
@@ -11,7 +11,7 @@ export default function Page (){
                 <h1 className="text-3xl text-gray-800 font-bold">Latest Achivements</h1>
             </div>
           
-            <div className="mt-4 flex justify-center gap-4 flex-wrap m-5">
+            <div className="mt-4 flex justify-center gap-4 flex-wrap my-5 m-5">
                 <Component 
                     image={<Image src={image1} alt="image" className='object-cover rounded-2xl'/>} 
                     description={'Halo Digital Agency Website'} 
@@ -31,34 +31,13 @@ export default function Page (){
                     image={<Image src={image2} alt="image" className='object-cover rounded-2xl'/>} 
                     description={'Halo Digital Agency Website'} 
                 />
-
-                
-                <Component 
-                    image={<Image src={image2} alt="image" className='object-cover rounded-2xl'/>} 
-                    description={'Halo Digital Agency Website'} 
-                />
-
-                
-                <Component 
-                    image={<Image src={image2} alt="image" className='object-cover rounded-2xl'/>} 
-                    description={'Halo Digital Agency Website'} 
-                />
-
-                
-                <Component 
-                    image={<Image src={image2} alt="image" className='object-cover rounded-2xl'/>} 
-                    description={'Halo Digital Agency Website'} 
-                />
-
-                
-                <Component 
-                    image={<Image src={image2} alt="image" className='object-cover rounded-2xl'/>} 
-                    description={'Halo Digital Agency Website'} 
-                />
-
-                
+  
             </div>
 
+                <div className=" text-gray-700 text-lg flex justify-center rounded-2xl">
+                  
+                    <button className="underline"> <GrLinkNext className='w-50 h-10 font-bold  text-lg'/>View more</button>
+                </div>
             
        </div>
     )
