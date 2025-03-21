@@ -16,7 +16,7 @@ import Card from './card'
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="my-5 mb-10">
        <div className=" flex justify-center">
             <Card title={200} subtitle={'project completed'} />
             <Card title={50} subtitle={'startup raised'} />
@@ -42,10 +42,12 @@ export default function Home() {
                   </div>
             </div>
 
-            <div className="border-gray-200 shadow-gray-300 bg-white flex flex-col p-3 rounded-2xl">
+            <div className="border-gray-200 shadow-gray-300 bg-white flex flex-col justify-between p-3 py-5 rounded-2xl">
               <div className="mb-2 p-2">
                   <h1 className="text-5xl font-bold text-gray-800"><CountUp start={0} end={120} duration={3}/>%</h1>
-                  <p className='text-gray-600 text-ligth'>Average increase in client
+              </div>
+              <div className="mb-2 p-2">
+                 <p className='text-gray-600 text-ligth'>Average increase in client
                     engagement in the first 6
                     months
                   </p>
@@ -83,7 +85,8 @@ export default function Home() {
               </div>
             </div>
         </div>
-       <div className='bg-white w-full relative mt-10'>
+        <div className="m-5 relative"></div>
+       <div className='bg-white w-full relative'>
           <div className='m-2'>
                   <h2 className='font-bold text-gray-800 text-2xl mx-5'>Experiences</h2>
                   <p className='text-gray-600 text-lg  mx-5'>
