@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import { MdArrowOutward } from 'react-icons/md';
 
 const BlogData = [
     {
@@ -25,6 +27,14 @@ const BlogData = [
         link: "https://github.com/elielMengue",
         id: 3
     },
+    {
+        image: "/images/tailwind.jpg",
+        title: "Clean design with tailwind",
+        readtime: "10 min read",
+        details: "Enhance your design skill",
+        link: "https://github.com/elielMengue",
+        id: 3
+    }
 ];
 
 export default function Page() {
@@ -51,6 +61,10 @@ export default function Page() {
                 <p className='text-gray-700 text-lg max-w-2xl mx-auto'>
                     I am always excited to collaborate on new projects. Whether you are starting from scratch or refining an existing idea, lets work together to make it a reality.
                 </p>
+                 <div className="flex items-center gap-2 text-tertiary text-lg font-medium underline">
+                    <Link href="/contact" className="hover:text-white transition">contact@em.com</Link>
+                     <MdArrowOutward className="text-xl" />
+                 </div>
             </div>
         </div>
     );
