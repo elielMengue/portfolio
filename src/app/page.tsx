@@ -5,6 +5,7 @@ import { FaArrowTrendUp } from 'react-icons/fa6'
 import { IoArrowRedoOutline } from 'react-icons/io5';
 import { RiGeminiFill } from 'react-icons/ri';
 import { MdArrowOutward } from "react-icons/md";
+import CountUp from "react-countup";
 import Component from './component';
 import Image from 'next/image';
 import image1 from '../../public/images/image1.webp';
@@ -43,7 +44,7 @@ export default function Home() {
 
             <div className="border-gray-200 shadow-gray-300 bg-white flex flex-col p-3 rounded-2xl">
               <div className="mb-2 p-2">
-                  <h1 className="text-5xl font-bold text-gray-800">120%</h1>
+                  <h1 className="text-5xl font-bold text-gray-800"><CountUp start={0} end={120} duration={3}/>%</h1>
                   <p className='text-gray-600 text-ligth'>Average increase in client
                     engagement in the first 6
                     months
