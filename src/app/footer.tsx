@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import { SiWhatsapp } from "react-icons/si";
@@ -18,11 +20,11 @@ export default function Footer() {
                 </motion.div>
 
         
-                <nav className="flex gap-4 text-tertiary font-medium">
+                <div className="flex gap-4 text-tertiary font-medium">
                     <Link href="/" className="hover:text-white transition">About Me</Link>
                     <Link href="/portfolio" className="hover:text-white transition">Portfolio</Link>
                     <Link href="/blog" className="hover:text-white transition">Blog</Link>
-                </nav>
+                </div>
             </div>
             <div className="flex flex-col items-center md:items-end gap-4 mt-4 md:mt-0">
                 <div className="flex gap-4 text-tertiary text-2xl">
