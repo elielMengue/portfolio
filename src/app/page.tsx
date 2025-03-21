@@ -128,10 +128,10 @@ export default function Home() {
                   </div>
 
                   <div className="flex">
-                        <div className="bg-black p-3 text-ligth text-white rounded-2xl mx-2">
+                        <div className="bg-black p-3 text-ligth text-white rounded-2xl mx-2 hover:cursor-alias">
                           <button>Branding</button>
                         </div>
-                        <div className="bg-black p-3 text-ligth text-white rounded-2xl">
+                        <div className="bg-black p-3 text-ligth text-white rounded-2xl hover:cursor-alias">
                           <button>UIUX</button>
                         </div>
                   </div>
@@ -166,7 +166,7 @@ export default function Home() {
                             strengthened my passion for solving desing challenge
                             </p>
                         </div>
-                        <div className="rounded-2xl w-10 h-10 bg-black flex justify-center mt-3">
+                        <div className="rounded-2xl w-10 h-10 bg-black flex justify-center mt-3 hover:cursor-alias">
                             <button className=''><MdArrowOutward className="text-white w-10 h-10"/></button>
                         </div>
                      </div>

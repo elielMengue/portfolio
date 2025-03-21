@@ -30,14 +30,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-         <div className="max-w-sreen max-h-sreen bg-tertiary">
+         <div className="max-w-sreen max-h-sreen bg-gray-100 flex flex-col">
           <div className="">
             <Menu />
           </div>
           <div className="">
             {children}
           </div>
-          <div className="bg-black w-full h-20">
+          <div className="bg-black w-full h-30 align-bottom">
             <Footer />
           </div>
         </div>

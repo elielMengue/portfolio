@@ -4,7 +4,7 @@
 export default function Page() {
     return (
         <div className="flex items-center justify-center p-4">
-             <div className="bg-white max-w-2xl w-full rounded-2xl p-8 shadow-lg relative border-b border-r border-gray-400">
+             <div className="bg-tertiary max-w-2xl w-full rounded-2xl p-8 relative border-b border-r border-gray-400">
                  
                  <div className="flex items-center gap-4">
                  <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white font-bold text-lg">

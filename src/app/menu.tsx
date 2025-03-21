@@ -4,7 +4,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 export default function Menu() {
     return (
-        <div className="flex justify-between p-4">
+        <div className="flex justify-between bg-tertiary p-4">
 
             <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center text-white font-bold text-lg">
