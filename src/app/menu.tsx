@@ -1,3 +1,5 @@
+'use client';
+
 import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 import { useState } from "react";
