@@ -46,7 +46,7 @@ export default function Page() {
             />
           </div>
         </div>
-        <button className="mt-8 w-full bg-primary text-white py-3 rounded-lg text-sm font-semibold hover:bg-pink-600">
+        <button className="mt-8 w-full bg-primary text-white py-3 rounded-lg text-sm font-semibold">
           Send Message
         </button>
       </div>
